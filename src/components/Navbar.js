@@ -14,7 +14,7 @@ export default function Navbar(props) {
   }, [location])
   return (
     <div>
-      <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">NoteBook</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,6 +32,7 @@ export default function Navbar(props) {
             {!localStorage.getItem('token') ? <form><Link className='btn btn-outline-success mx-2' to="/login" role="button">Login</Link>
             <Link className='btn btn-outline-primary mx-2' to="/signup" role="button">Signup</Link>
             </form>: <button className='btn btn-outline-warning mx-2'onClick={logout}>Logout</button>}
+           
               
           </div>
         </div>
