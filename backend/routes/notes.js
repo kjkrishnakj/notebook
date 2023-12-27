@@ -9,7 +9,7 @@ router.get('/fetchallnotes', fetchuser, async (req, res) => {
     try {
         const notes = await Notes.find({ user: req.user.id })
 
-        res.json([notes]);
+        res.json(notes);
     } catch (e) {
         return res.status(500).send(e)
     }
