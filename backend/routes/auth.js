@@ -36,6 +36,7 @@ router.post('/createuser', [body('name').isLength({ min: 3 }), body('email').isE
 
 router.post('/login', [body('email').isEmail(),
  body('password').exists()], async (req, res) => {
+   let success = false
    const errors = validationResult(req);
    if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
@@ -46,12 +47,14 @@ router.post('/login', [body('email').isEmail(),
    try {
       let user = await User.findOne({ email })
       if (!user) {
+         success =false;
          return res.status(400).json({ errors: "Invalid credentials!" })
       }
       const passcmp = await bcrypt.compare(password, user.password);
       if (!passcmp) {
-
-         return res.status(400).json({ errors: "Invalid credentials!" })
+         success =false;
+         
+         return res.status(400).json({ success,errors: "Invalid credentials!" })
       }
       const data = {
          user: {
@@ -59,7 +62,9 @@ router.post('/login', [body('email').isEmail(),
          }
       }
       const authToken = JWT.sign(data, JWT_SECRET);
-      res.json({ authToken });
+      
+      success =true;
+      res.json({success, authToken });
 
    } catch (e) {
       return res.status(500).send(e)
