@@ -10,10 +10,10 @@ const NoteItem = (props) => {
     }
     return (
     <div className='col-md-3'>
-      <div className="card my-3">
-      <div className="card-header" style={{backgroundColor:"#adb5bd"}}>
+      <div className="card bg-transparent my-3" style={{ boxShadow: '13px 20px 6px rgba(0, 0, 0, 0.6)' }}>
+      <div className="card-header" style={{backgroundColor:"#016fb9"}}>
 
-    <h5 className="card-title my-1" >{note.title}</h5>
+    <h5 className="card-title my-1" style={{color:"white"}} >{note.title}</h5>
       </div>
       <div className="card-body">
     

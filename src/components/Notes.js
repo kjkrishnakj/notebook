@@ -28,13 +28,13 @@ const Notes = (props) => {
             <AddNote showAlert={props.showAlert} />
             <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div className="modal-dialog">
-                    <div className="modal-content">
+                    <div className="modal-content" style={{backgroundColor:"#FFB600", boxShadow: '13px 20px 6px rgba(0, 0, 0, 0.6)' }}>
                         <div className="modal-header">
                             <h1 className="modal-title fs-5" id="staticBackdropLabel">Edit Note</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div className="modal-body">
-                            <form className='my-3'>
+                        <div className="modal-body" >
+                            <form className='my-3 bg-transparent' >
                                 <div className="mb-3">
                                     <label htmlFor="title" className="form-label">Title</label>
                                     <input type="text" className="form-control" id="etitle" name='etitle' value={note.etitle} onChange={(e) => {
@@ -69,7 +69,7 @@ const Notes = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="  row my-2">
+            <div className=" row my-3">
                 <h1>Your Notes</h1>
                 <div className="container">
 
