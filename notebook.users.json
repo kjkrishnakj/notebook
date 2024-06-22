@@ -1,0 +1,132 @@
+[{
+  "_id": {
+    "$oid": "6589a2dbbbdf9168dfbdae8f"
+  },
+  "name": "kj123rer23r33r3r3d",
+  "email": "kj123r3rrfdcqwfq@gmail.com",
+  "password": "Hello@2004",
+  "date": {
+    "$date": "2023-12-25T15:42:19.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658a8c1b4d5fb03fd59a6b22"
+  },
+  "name": "kj2",
+  "email": "kj@gmail.com",
+  "password": "$2a$10$7nVVAshUE1Z6Qs36nZzBs.ctqTSNqMTy0gg10HDBAuSclVZcwK/82",
+  "date": {
+    "$date": "2023-12-26T08:17:31.558Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658a8dbbb82464f90f490f3e"
+  },
+  "name": "kj22",
+  "email": "kj2@gmail.com",
+  "password": "$2a$10$Zpu1CCxDfrI9PjKkXJjvfejEzfXKrK26fSO0cubMzlYvEVn1UwTHW",
+  "date": {
+    "$date": "2023-12-26T08:24:27.374Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658a8dd7de9ae97fa837f3c4"
+  },
+  "name": "kj222",
+  "email": "kj23@gmail.com",
+  "password": "$2a$10$EELAefJVFHdmI.iYcsJtZuSTHDiDPLFsKTjdPI2A.9XY5BQhZoHPK",
+  "date": {
+    "$date": "2023-12-26T08:24:55.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c252bd2b7a9269067af44"
+  },
+  "name": "krishna",
+  "email": "krishnajaswl@gmail.com",
+  "password": "$2a$10$k.Q0Vp3xko1uzwWFsr9F3umLJFpt2WV8X3q8GIehprf.EroA9Eiii",
+  "date": {
+    "$date": "2023-12-27T13:22:51.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2cd8d1d551a307b5bce9"
+  },
+  "name": "KJHERO",
+  "email": "kjhero@gmail.com",
+  "password": "$2a$10$T3sFARvgbYfohDL0LxnL..kCfBnY7Hh1Qq/L8FnptrFmuQxIZgwde",
+  "date": {
+    "$date": "2023-12-27T13:55:36.624Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c2fddd1d551a307b5bcf2"
+  },
+  "name": "krishna3",
+  "email": "krishnajaswl2@gmail.com",
+  "password": "$2a$10$Djky8y.t8LOewZ3AQZICKuDgnh6nF7yKOTpgdO3U6IYpXtDf9Y.qa",
+  "date": {
+    "$date": "2023-12-27T14:08:29.900Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66768e08e1a33014ae3ef8ae"
+  },
+  "name": "krishna ",
+  "email": "krishnajaswfefefeefl@gmail.com",
+  "password": "$2a$10$bODLyenc1cYmUFo3kO8ZL.u7RVDK2aIxKqlkEDaz6QuuOVR3vwHk2",
+  "date": {
+    "$date": "2024-06-22T08:40:40.020Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66768e15e1a33014ae3ef8b1"
+  },
+  "name": "krishna ",
+  "email": "krishnajferfaswfefefeefl@gmail.com",
+  "password": "$2a$10$qS.hpeiN8nnp2oBg/Gprkex7QD3KTsiKCixL1ax0so7HO2E7isWQy",
+  "date": {
+    "$date": "2024-06-22T08:40:53.317Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66768e2ae1a33014ae3ef8b4"
+  },
+  "name": "krishna ",
+  "email": "krishnajaswl2334@gmail.com",
+  "password": "$2a$10$UMSFZbUmEaQ2/UgIbsxQj.F5LnzlxEuG/e4bBidjiWnS3Xqzvsawy",
+  "date": {
+    "$date": "2024-06-22T08:41:14.120Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66768f76e1a33014ae3ef8bb"
+  },
+  "name": "krishna ",
+  "email": "krishnajaswl2kj@gmail.com",
+  "password": "$2a$10$s95WL5fyMMhpETJmx10OWeudQJNYJKxEoJgurQzcNnT6YiQkfdrTm",
+  "date": {
+    "$date": "2024-06-22T08:46:46.398Z"
+  },
+  "__v": 0
+}]

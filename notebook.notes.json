@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "658ac39930289ad927a16dac"
+  },
+  "user": {
+    "$oid": "658a8dd7de9ae97fa837f3c4"
+  },
+  "title": "my title",
+  "description": "helllooog4tg5o",
+  "tag": "prghg5tslkgng",
+  "date": {
+    "$date": "2023-12-26T12:14:17.851Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658bf86688e4a9ab172a8cf7"
+  },
+  "user": {
+    "$oid": "658a8c1b4d5fb03fd59a6b22"
+  },
+  "title": "hello",
+  "description": "my name is kj",
+  "tag": "personal",
+  "date": {
+    "$date": "2023-12-27T10:11:50.094Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658bfa0d88e4a9ab172a8d01"
+  },
+  "user": {
+    "$oid": "658a8c1b4d5fb03fd59a6b22"
+  },
+  "title": "wake up",
+  "description": "wake up at 8:00 am",
+  "tag": "personal",
+  "date": {
+    "$date": "2023-12-27T10:18:53.275Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c126ed2b7a9269067aef5"
+  },
+  "user": {
+    "$oid": "658a8c1b4d5fb03fd59a6b22"
+  },
+  "title": "LUNCH",
+  "description": "eat lunch at 2pm",
+  "tag": "personal",
+  "date": {
+    "$date": "2023-12-27T12:02:54.257Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c1404d2b7a9269067af07"
+  },
+  "user": {
+    "$oid": "658a8c1b4d5fb03fd59a6b22"
+  },
+  "title": "Market",
+  "description": "buy fruits",
+  "tag": "outside",
+  "date": {
+    "$date": "2023-12-27T12:09:40.300Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658c16a3d2b7a9269067af3b"
+  },
+  "user": {
+    "$oid": "658a8c1b4d5fb03fd59a6b22"
+  },
+  "title": "Snaks",
+  "description": "Take snacks by 7pm",
+  "tag": " personal",
+  "date": {
+    "$date": "2023-12-27T12:20:51.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658cead49299ef184ac2d424"
+  },
+  "user": {
+    "$oid": "658c252bd2b7a9269067af44"
+  },
+  "title": "Welcome",
+  "description": "Welcome to NoteBook",
+  "tag": "promotion",
+  "date": {
+    "$date": "2023-12-28T03:26:12.206Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "658ceb109299ef184ac2ecc4"
+  },
+  "user": {
+    "$oid": "658c252bd2b7a9269067af44"
+  },
+  "title": "Description",
+  "description": "Made using MERN",
+  "tag": "description",
+  "date": {
+    "$date": "2023-12-28T03:27:12.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6676910ae1a33014ae3efb7d"
+  },
+  "user": {
+    "$oid": "66768f76e1a33014ae3ef8bb"
+  },
+  "title": "krishna",
+  "description": "gergregrf",
+  "tag": " rgrgreg",
+  "date": {
+    "$date": "2024-06-22T08:53:30.222Z"
+  },
+  "__v": 0
+}]
